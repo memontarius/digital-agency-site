@@ -201,28 +201,28 @@ svg * {
 }
 @font-face {
   font-family: "Raleway";
-  src: url("/assets/fonts/Raleway-Regular.woff2") format("woff2");
+  src: url("/digital-agency-site/assets/fonts/Raleway-Regular.woff2") format("woff2");
   font-weight: 400;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Raleway";
-  src: url("/assets/fonts/Raleway-Medium.woff2") format("woff2");
+  src: url("/digital-agency-site/assets/fonts/Raleway-Medium.woff2") format("woff2");
   font-weight: 500;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Raleway";
-  src: url("/assets/fonts/Raleway-Light.woff2") format("woff2");
+  src: url("/digital-agency-site/assets/fonts/Raleway-Light.woff2") format("woff2");
   font-weight: 300;
   font-style: normal;
   font-display: swap;
 }
 @font-face {
   font-family: "Raleway";
-  src: url("/assets/fonts/Raleway-ExtraLight.woff2") format("woff2");
+  src: url("/digital-agency-site/assets/fonts/Raleway-ExtraLight.woff2") format("woff2");
   font-weight: 200;
   font-style: normal;
   font-display: swap;
@@ -557,10 +557,10 @@ body::-webkit-scrollbar-thumb {
 .link__arrow-icon {
   display: inline-block;
   background-color: #FFFFFF;
-  -webkit-mask-image: url("/assets/icons/arrow.svg");
+  -webkit-mask-image: url("/digital-agency-site/assets/icons/arrow.svg");
   -webkit-mask-repeat: no-repeat;
   -webkit-mask-size: contain;
-  mask-image: url("/assets/icons/arrow.svg");
+  mask-image: url("/digital-agency-site/assets/icons/arrow.svg");
   mask-repeat: no-repeat;
   mask-size: contain;
   background-size: cover;
@@ -656,7 +656,7 @@ body::-webkit-scrollbar-thumb {
   top: 50%;
   left: 50%;
   translate: -50% -50%;
-  content: url("/assets/icons/button_burger.svg");
+  content: url("/digital-agency-site/assets/icons/button_burger.svg");
   width: 50%;
   height: 50%;
   translate: -50% -50%;
@@ -841,7 +841,7 @@ body::-webkit-scrollbar-thumb {
 .banner__body {
   display: flex;
   column-gap: 50px;
-  background-image: url("/assets/images/bg-banner.svg");
+  background-image: url("/digital-agency-site/assets/images/bg-banner.svg");
   background-repeat: no-repeat;
   background-size: cover;
   border-radius: 16px;
@@ -871,7 +871,7 @@ body::-webkit-scrollbar-thumb {
 @media (max-width: 1023px) {
   .banner__content {
     order: 2;
-    background-image: url("/assets/images/bg-banner-small.svg");
+    background-image: url("/digital-agency-site/assets/images/bg-banner-small.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -887,7 +887,7 @@ body::-webkit-scrollbar-thumb {
 }
 @media (max-width: 1023px) {
   .banner__preview-container {
-    background-image: url("/assets/images/bg-banner-small.svg");
+    background-image: url("/digital-agency-site/assets/images/bg-banner-small.svg");
     background-repeat: no-repeat;
     background-size: cover;
     border-radius: 16px;
@@ -1176,7 +1176,7 @@ body::-webkit-scrollbar-thumb {
   height: 100%;
   width: 100%;
   display: block;
-  background-image: url("/assets/images/gradient-half-spot.svg");
+  background-image: url("/digital-agency-site/assets/images/gradient-half-spot.svg");
   background-repeat: no-repeat;
   background-position-x: right;
   top: -120px;
@@ -1194,7 +1194,7 @@ body::-webkit-scrollbar-thumb {
   height: 250%;
   width: 100%;
   display: block;
-  background-image: url("/assets/images/gradient-circle-spot.svg");
+  background-image: url("/digital-agency-site/assets/images/gradient-circle-spot.svg");
   background-repeat: no-repeat;
   background-position-x: center;
   top: -200px;
@@ -1447,7 +1447,7 @@ body::-webkit-scrollbar-thumb {
   border-radius: 16px;
   justify-content: center;
   text-align: center;
-  background-image: url("/assets/images/bg-banner.svg");
+  background-image: url("/digital-agency-site/assets/images/bg-banner.svg");
   background-repeat: no-repeat;
   background-size: cover;
   padding: 0;
