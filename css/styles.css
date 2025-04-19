@@ -1100,15 +1100,6 @@ body::-webkit-scrollbar-thumb {
   padding-block: 100px;
   position: relative;
 }
-.section--unpadding-top {
-  padding-top: 0;
-  padding-bottom: 100px;
-}
-.section--unpadding-y {
-  padding-top: 0;
-  padding-bottom: 0;
-  padding-inline: 0;
-}
 .section--lighten {
   background-color: #191919;
 }
@@ -1121,6 +1112,15 @@ body::-webkit-scrollbar-thumb {
   .section {
     padding-block: 20px;
   }
+}
+.section--unpadding-top {
+  padding-top: 0;
+  padding-bottom: 100px;
+}
+.section--unpadding-y {
+  padding-top: 0;
+  padding-bottom: 0;
+  padding-inline: 0;
 }
 .section__content {
   display: flex;
